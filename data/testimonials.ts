@@ -1,0 +1,23 @@
+export const testimonials = [
+  {
+    name: "John Smith",
+    role: "Senior Manager",
+    company: "Star Knowledge",
+    content: "Sai Kiran is an exceptional developer who consistently delivers high-quality solutions. His expertise in Azure and .NET technologies has been invaluable to our team.",
+    avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzIiIGZpbGw9IiM5Q0EzQUYiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDEyQzE0LjIwOTEgMTIgMTYgMTAuMjA5MSAxNiA4QzE2IDUuNzkwODYgMTQuMjA5MSA0IDEyIDRDOS43OTA4NiA0IDggNS43OTA4NiA4IDhDOCAxMC4yMDkxIDkuNzkwODYgMTIgMTIgMTJaIiBmaWxsPSIjRkZGIi8+CjxwYXRoIGQ9Ik0xMiAxNEM5LjM5MDg2IDE0IDcuMTY2NjcgMTUuNDE2NyA2LjMzMzMzIDE3LjMzMzNDNi4xMjUgMTcuNzA4MyA2IDE4LjEyNSAxOCAxOC41NDE3QzE4IDE4LjEyNSAxNy44NzUgMTcuNzA4MyAxNy42NjY3IDE3LjMzMzNDMTYuODMzMyAxNS40MTY3IDE0LjYwOTEgMTQgMTIgMTRaIiBmaWxsPSIjRkZGIi8+Cjwvc3ZnPgo8L3N2Zz4K",
+  },
+  {
+    name: "Sarah Johnson",
+    role: "Technical Lead",
+    company: "Star Knowledge",
+    content: "Working with Sai Kiran has been a pleasure. His attention to detail and problem-solving skills make him a valuable asset to any development team.",
+    avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzIiIGZpbGw9IiM5Q0EzQUYiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDEyQzE0LjIwOTEgMTIgMTYgMTAuMjA5MSAxNiA4QzE2IDUuNzkwODYgMTQuMjA5MSA0IDEyIDRDOS43OTA4NiA0IDggNS43OTA4NiA4IDhDOCAxMC4yMDkxIDkuNzkwODYgMTIgMTIgMTJaIiBmaWxsPSIjRkZGIi8+CjxwYXRoIGQ9Ik0xMiAxNEM5LjM5MDg2IDE0IDcuMTY2NjcgMTUuNDE2NyA2LjMzMzMzIDE3LjMzMzNDNi4xMjUgMTcuNzA4MyA2IDE4LjEyNSAxOCAxOC41NDE3QzE4IDE4LjEyNSAxNy44NzUgMTcuNzA4MyAxNy42NjY3IDE3LjMzMzNDMTYuODMzMyAxNS40MTY3IDE0LjYwOTEgMTQgMTIgMTRaIiBmaWxsPSIjRkZGIi8+Cjwvc3ZnPgo8L3N2Zz4K",
+  },
+  {
+    name: "Mike Chen",
+    role: "Project Manager",
+    company: "Star Knowledge",
+    content: "Sai Kiran's ability to quickly learn new technologies and implement complex solutions is impressive. He's a true professional and team player.",
+    avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzIiIGZpbGw9IiM5Q0EzQUYiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDEyQzE0LjIwOTEgMTIgMTYgMTAuMjA5MSAxNiA4QzE2IDUuNzkwODYgMTQuMjA5MSA0IDEyIDRDOS43OTA4NiA0IDggNS43OTA4NiA4IDhDOCAxMC4yMDkxIDkuNzkwODYgMTIgMTIgMTJaIiBmaWxsPSIjRkZGIi8+CjxwYXRoIGQ9Ik0xMiAxNEM5LjM5MDg2IDE0IDcuMTY2NjcgMTUuNDE2NyA2LjMzMzMzIDE3LjMzMzNDNi4xMjUgMTcuNzA4MyA2IDE4LjEyNSAxOCAxOC41NDE3QzE4IDE4LjEyNSAxNy44NzUgMTcuNzA4MyAxNy42NjY3IDE3LjMzMzNDMTYuODMzMyAxNS40MTY3IDE0LjYwOTEgMTQgMTIgMTRaIiBmaWxsPSIjRkZGIi8+Cjwvc3ZnPgo8L3N2Zz4K",
+  }
+]
