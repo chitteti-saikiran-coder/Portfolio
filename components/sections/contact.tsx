@@ -17,11 +17,13 @@ export function Contact() {
     message: string
   }>({ type: null, message: '' })
 
-  const handleSubmit = async (formData: FormData) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
     setIsSubmitting(true)
     setSubmitStatus({ type: null, message: '' })
 
     try {
+      const formData = new FormData(event.currentTarget)
       const result = await submitContactForm(formData)
       setSubmitStatus({
         type: result.success ? 'success' : 'error',
