@@ -35,7 +35,7 @@ export async function submitContactForm(formData: FormData) {
     if (error instanceof z.ZodError) {
       return {
         success: false,
-        message: error.errors[0].message
+        message: error.message
       }
     }
 
